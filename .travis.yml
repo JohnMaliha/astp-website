@@ -1,0 +1,12 @@
+# travis-ci to deploy website to FTP server using git-ftp
+dist: xenial
+language: generic
+addons:
+  apt:
+    packages:
+    - git-ftp
+branches:
+  only:
+    - master
+after_success:
+  - travis_retry ./deploy.sh

@@ -1,16 +1,18 @@
 # Site settings
-title: Creative
-description: > # this means to ignore newlines until "baseurl:"
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+title: Association des sociétés techniques de Polytechnique
+title-short: ASTP
+description: >
+    Blah blah
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-# Author Info
-name: #First-Name Last-Name
-email: theme@viennalabs.com
-twitter_username: volnyio
-github_username: volny
+# Author
+author-name: Christophe Bédard
+author-email: christophe.bedard@polymtl.ca # TODO include somewhere along with author-name
+
+# Contact info
+email: societestechniques@polymtl.ca 
+facebook: TODO
 
 # Build settings
 markdown: kramdown

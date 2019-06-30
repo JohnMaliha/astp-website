@@ -1,5 +1,6 @@
 #!/bin/sh
 # Deploy to FTP server using git-ftp
+set -e
 
 # Set preferences here
 # Some environment variables have to be set separately (FTP_URL, FTP_USER, and FTP_PASSWORD)

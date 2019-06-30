@@ -8,9 +8,6 @@ FTP_REMOTE_ROOT=nova_html/
 FTP_SYNC_ROOT=_site/
 
 # Set git-ftp parameters
-# Note: the remote-root option is not used, because travis-ci has access
-#       to an old version of git-ftp which does not support it; it is
-#       therefore appended to the URL
 git config git-ftp.url ftp://${FTP_URL}/${FTP_REMOTE_ROOT}
 git config git-ftp.user $FTP_USER
 git config git-ftp.password $FTP_PASSWORD

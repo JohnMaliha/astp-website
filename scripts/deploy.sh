@@ -20,4 +20,5 @@ open '$URL';
 lcd $FTP_SYNC_ROOT;
 cd $FTP_REMOTE_ROOT;
 mirror --reverse \
+       --delete \
        --verbose"

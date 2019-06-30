@@ -1,6 +1,6 @@
 # ASTP
 
-Website for the Association des sociétés techniques de Polytechniques.
+Website for the Association des sociétés techniques de Polytechnique.
 
 ## Build locally
 

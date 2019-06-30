@@ -1,0 +1,14 @@
+list:
+  - name: Élikos
+    name-full: Societe technique Élikos
+    website: "https://elikos.polymtl.ca"
+    facebook: ElikosPoly
+    instagram: elikos.polymtl
+    twitter: ElikosPoly
+    github: elikos
+    # gitlab: elikos
+    linkedin: elikos-polymtl
+  - name: Oronos
+    name-full: Oronos Polytechnique
+    website: "https://oronospolytechnique.com/"
+    facebook: dunno

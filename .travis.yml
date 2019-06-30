@@ -6,10 +6,6 @@ sudo: false
 
 cache: bundler # caching bundler gem packages will speed up build
 
-# addons:
-#   apt:
-#     packages:
-#     - lftp
 branches:
   only:
     - master
@@ -21,11 +17,7 @@ before_install:
 before_script:
   - chmod +x ./scripts/build.sh
   - chmod +x ./scripts/proof.sh
-  # - chmod +x ./scripts/deploy.sh
 
 script:
   - ./scripts/build.sh
   - ./scripts/proof.sh
-
-# after_success:
-#   - ./scripts/deploy.sh

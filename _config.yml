@@ -18,4 +18,4 @@ facebook: TODO
 markdown: kramdown
 
 # Exclude list
-exclude: [scripts, README.md, _site, LICENSE, Gemfile, Gemfile.lock]
+exclude: [vendor, scripts, README.md, _site, LICENSE, Gemfile, Gemfile.lock]

@@ -1,6 +1,12 @@
 # travis-ci to deploy website to FTP server using git-ftp
 dist: xenial
-language: generic
+language: ruby
+rvm:
+  - 2.5.3
+sudo: false
+
+cache: bundler # caching bundler gem packages will speed up build
+
 addons:
   apt:
     packages:
@@ -8,5 +14,14 @@ addons:
 branches:
   only:
     - master
+
+before_install:
+  - gem update --system
+  - gem install bundler
+
+script:
+  - bundle exec jekyll build
+  - bundle exec htmlproofer ./_site
+
 after_success:
   - travis_retry ./deploy.sh

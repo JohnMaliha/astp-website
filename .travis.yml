@@ -9,7 +9,7 @@ cache: bundler # caching bundler gem packages will speed up build
 addons:
   apt:
     packages:
-    - git-ftp
+    - lftp
 branches:
   only:
     - master
@@ -28,4 +28,4 @@ script:
   - ./scripts/proof.sh
 
 after_success:
-  - travis_retry ./scripts/deploy.sh
+  - ./scripts/deploy.sh

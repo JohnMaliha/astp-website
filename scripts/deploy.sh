@@ -1,19 +1,23 @@
 #!/bin/sh
-# Deploy to FTP server using git-ftp
+# Deploy to FTP server
 set -e
 
-# Set preferences here
-# Some environment variables have to be set separately (FTP_URL, FTP_USER, and FTP_PASSWORD)
-FTP_REMOTE_ROOT=nova_html/
-FTP_SYNC_ROOT=_site/
+# Set env variables beforehand
+#   FTP_URL
+#   FTP_USER
+#   FTP_PASSWORD
+if [ -z "${FTP_URL}" ] || [ -z "${FTP_USER}" ] || [ -z "${FTP_PASSWORD}" ]; then
+    echo "Please set FTP_URL, FTP_USER, and FTP_PASSWORD"
+    exit 1
+fi
 
-# Set git-ftp parameters
-git config git-ftp.url ftp://${FTP_URL}/${FTP_REMOTE_ROOT}
-git config git-ftp.user $FTP_USER
-git config git-ftp.password $FTP_PASSWORD
-git config git-ftp.syncroot $FTP_SYNC_ROOT
+FTP_SYNC_ROOT="_site/"
+FTP_REMOTE_ROOT="nova_html/"
 
-# Deploy
-# Note: this assumes that `git ftp init` was previously called, i.e. that
-#       a .git-ftp.log file exists at the right location on the server
-git ftp push -v
+URL="ftp://$FTP_USER:$FTP_PASSWORD@$FTP_URL"
+lftp -c "set ftp:list-options -a;
+open '$URL';
+lcd $FTP_SYNC_ROOT;
+cd $FTP_REMOTE_ROOT;
+mirror --reverse \
+       --verbose"

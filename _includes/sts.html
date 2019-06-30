@@ -9,6 +9,12 @@
     </div>
     <div class="container">
         <div class="row justify-content-center">
+            STs:
+            {% for st in site.data.sts.list %}
+                <div class="col-lg-3 col-md-6 text-center">
+                    {{ st.name }}, {{ st.name-full }}
+                </div>
+            {% endfor %}
             <div class="col-lg-3 col-md-6 text-center">
                 <div class="service-box">
                     <i class="far fa-gem fa-4x wow bounceIn text-primary"></i>

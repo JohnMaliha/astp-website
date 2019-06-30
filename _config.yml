@@ -16,3 +16,6 @@ facebook: TODO
 
 # Build settings
 markdown: kramdown
+
+# Exclude list
+exclude: [scripts, README.md, _site, LICENSE, Gemfile, Gemfile.lock]

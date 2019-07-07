@@ -11,6 +11,7 @@
 #       facebook: 
 #       instagram: 
 #       twitter: 
+#       youtube: 
 #       flickr: 
 #       linkedin: 
 #       github: 
@@ -38,6 +39,7 @@
       website: "http://esteban.polymtl.ca/"
       facebook: VoitureSolaireEsteban
       twitter: EstebanSolarCar
+      youtube: EstebanSolarCar
 - name: Oronos
   description: >
     La société étudiante Oronos est une équipe multidisciplinaire dont l’objectif principal est de concevoir, fabriquer et opérer des fusées haute puissance.

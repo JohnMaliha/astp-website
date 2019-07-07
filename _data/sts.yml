@@ -1,24 +1,23 @@
-list:
-  - name: Élikos
-    name-full: Societe technique Élikos
-    description: >
-      Élikos est une société technique dont le but est de promouvoir les multirotors autonomes dans le milieu universitaire.
-    logo: "elikos.png"
-    links:
-        website: "https://elikos.polymtl.ca"
-        facebook: ElikosPoly
-        instagram: elikos.polymtl
-        twitter: ElikosPoly
-        linkedin: elikos-polymtl
-        github: elikos
-        gitlab: elikos
-  - name: Oronos
-    name-full: Oronos Polytechnique
-    description: >
-      La société étudiante Oronos est une équipe multidisciplinaire dont l’objectif principal est de concevoir, fabriquer et opérer des fusées haute puissance.
-    logo: 
-    links:
-        website: "https://oronospolytechnique.com/"
-        facebook: TODO
-        instagram: 
-        twitter:
+- name: Élikos
+  name-full: Societe technique Élikos
+  description: >
+    Élikos est une société technique dont le but est de promouvoir les multirotors autonomes dans le milieu universitaire.
+  logo: "elikos.png"
+  links:
+      website: "https://elikos.polymtl.ca"
+      facebook: ElikosPoly
+      instagram: elikos.polymtl
+      twitter: ElikosPoly
+      linkedin: elikos-polymtl
+      github: elikos
+      gitlab: elikos
+- name: Oronos
+  name-full: Oronos Polytechnique
+  description: >
+    La société étudiante Oronos est une équipe multidisciplinaire dont l’objectif principal est de concevoir, fabriquer et opérer des fusées haute puissance.
+  logo: 
+  links:
+      website: "https://oronospolytechnique.com/"
+      facebook: TODO
+      instagram: 
+      twitter:

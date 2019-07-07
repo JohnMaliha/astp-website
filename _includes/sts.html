@@ -8,13 +8,29 @@
         </div>
     </div>
     <div class="container">
-        <div class="row justify-content-center">
-            STs:
-            {% for st in site.data.sts.list %}
-                <div class="col-lg-3 col-md-6 text-center">
-                    {{ st.name }}, {{ st.name-full }}
+        {% for st in site.data.sts.list %}
+            <div class="row justify-content-md-center align-items-center">
+                <div class="col-md-6 text-left text-soft">
+                    <div>
+                        <h4>{{ st.name-full }}</h4>
+                    </div>
+                    <div>
+                        {{ st.description }}
+                    </div>
                 </div>
-            {% endfor %}
-        </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <div style="color: green;">
+                        {% if st.links.website %}<a class="sts-social-btn" href="{{ site.links.website}}" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe fa-3x"></i></a>{% endif %}
+                        {% if st.links.facebook %}<a class="sts-social-btn" href="https://facebook.com/{{ site.links.facebook}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square fa-3x"></i></a>{% endif %}
+                        {% if st.links.instagram %}<a class="sts-social-btn" href="https://instagram.com/{{ site.links.instagram}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-3x"></i></a>{% endif %}
+                        {% if st.links.twitter %}<a class="sts-social-btn" href="https://twitter.com/{{ site.links.twitter}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square fa-3x"></i></a>{% endif %}
+                        {% if st.links.linkedin %}<a class="sts-social-btn" href="https://www.linkedin.com/company/{{ site.links.linkedin}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin fa-3x"></i></a>{% endif %}
+                        {% if st.links.github %}<a class="sts-social-btn" href="https://github.com/{{ site.links.github}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square fa-3x"></i></a>{% endif %}
+                        {% if st.links.gitlab %}<a class="sts-social-btn" href="https://gitlab.com/{{ site.links.gitlab}}" target="_blank" rel="noopener noreferrer"><i class="fab fa-gitlab fa-3x"></i></a>{% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
     </div>
 </section>

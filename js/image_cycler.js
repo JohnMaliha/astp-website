@@ -1,6 +1,8 @@
 ---
 ---
 
+// From: https://stackoverflow.com/a/37243062
+
 const background_dir = "/img/sts/backgrounds/"
 
 const imgs = [

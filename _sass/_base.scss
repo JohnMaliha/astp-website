@@ -192,6 +192,9 @@ header {
                 font-size: 16px;
                 margin-bottom: 50px;
             }
+            .fa-angle-double-down {
+                color: rgba($logo-color, .8);
+            }
         }
     }
     @media (min-width: 768px) {

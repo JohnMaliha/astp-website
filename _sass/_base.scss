@@ -289,6 +289,10 @@ header {
 
 .sts-social-btn {
     padding: 2px;
+    color: rgba($logo-color, 0.7);
+    :hover {
+        color: darken($logo-color, 10%);
+    }
 }
 
 // Contact

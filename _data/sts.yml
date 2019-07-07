@@ -2,7 +2,6 @@
 #
 # Entry format:
 # - name: 
-#   name-full: 
 #   description: >
 #     
 #   logo: 
@@ -17,7 +16,6 @@
 #       gitlab: 
 
 - name: Élikos
-  name-full: Société technique Élikos
   description: >
     Élikos est une société technique dont le but est de promouvoir les multirotors autonomes dans le milieu universitaire.
   logo: "elikos.png"
@@ -31,7 +29,6 @@
       github: elikos
       gitlab: elikos
 - name: Oronos
-  name-full: Oronos Polytechnique
   description: >
     La société étudiante Oronos est une équipe multidisciplinaire dont l’objectif principal est de concevoir, fabriquer et opérer des fusées haute puissance.
   logo: 

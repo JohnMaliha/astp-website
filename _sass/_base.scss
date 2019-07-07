@@ -93,13 +93,38 @@ section {
                 font-size: 13px;
                 color: $theme-primary;
                 &:hover {
-                    color: $theme-dark;
+                    &.navbar-poly-r {
+                        color: rgba($poly-red, $poly-alpha-a);
+                    }
+                    &.navbar-poly-o {
+                        color: rgba($poly-orange, $poly-alpha-a);
+                    }
+                    &.navbar-poly-g {
+                        color: rgba($poly-green, $poly-alpha-a);
+                    }
+                    &.navbar-poly-b {
+                        color: rgba($poly-blue, $poly-alpha-a);
+                    }
                 }
             }
             &.active {
                 > a,
                 > a:focus {
-                    color: $theme-dark !important;
+                    &.navbar-title {
+                        color: $theme-dark !important;
+                    }
+                    &.navbar-poly-r {
+                        color: rgba($poly-red, $poly-alpha-a);
+                    }
+                    &.navbar-poly-o {
+                        color: rgba($poly-orange, $poly-alpha-a);
+                    }
+                    &.navbar-poly-g {
+                        color: rgba($poly-green, $poly-alpha-a);
+                    }
+                    &.navbar-poly-b {
+                        color: rgba($poly-blue, $poly-alpha-a);
+                    }
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
@@ -122,7 +147,18 @@ section {
         .nav > li > a:focus {
             color: rgba(white, .7);
             &:hover {
-                color: white;
+                &.navbar-poly-r {
+                    color: rgba($poly-red, $poly-alpha-a);
+                }
+                &.navbar-poly-o {
+                    color: rgba($poly-orange, $poly-alpha-a);
+                }
+                &.navbar-poly-g {
+                    color: rgba($poly-green, $poly-alpha-a);
+                }
+                &.navbar-poly-b {
+                    color: rgba($poly-blue, $poly-alpha-a);
+                }
             }
         }
         &.affix {
@@ -133,14 +169,30 @@ section {
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken($theme-primary, 20%);
+                    &.navbar-title {
+                        color: darken($theme-primary, 20%);
+                    }
                 }
             }
             .nav > li > a,
             .nav > li > a:focus {
                 color: $theme-primary;
                 &:hover {
-                    color: darken($theme-primary, 20%);
+                    &.navbar-title {
+                        color: darken($theme-primary, 20%);
+                    }
+                    &.navbar-poly-r {
+                        color: rgba($poly-red, $poly-alpha-b);
+                    }
+                    &.navbar-poly-o {
+                        color: rgba($poly-orange, $poly-alpha-b);
+                    }
+                    &.navbar-poly-g {
+                        color: rgba($poly-green, $poly-alpha-b);
+                    }
+                    &.navbar-poly-b {
+                        color: rgba($poly-blue, $poly-alpha-b);
+                    }
                 }
             }
         }

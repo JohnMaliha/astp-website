@@ -45,6 +45,9 @@ $poly-blue: rgb(65, 170, 230);
 $poly-alpha-a: 0.95;
 $poly-alpha-b: 0.7;
 
+$soft-text: rgb(123, 131, 139);
+$soft-background: rgb(235, 235, 235);
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",

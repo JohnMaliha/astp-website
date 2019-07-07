@@ -14,10 +14,6 @@ hr {
     max-width: 50px;
 }
 
-hr.light {
-    border-color: white;
-}
-
 a {
     @include transition-all;
     color: $theme-primary;
@@ -42,21 +38,20 @@ p {
     margin-bottom: 20px;
 }
 
-.bg-primary {
-    background-color: $theme-primary;
-}
-
 .bg-normal {
     background-color: white;
 }
 
-.bg-dark {
-    background-color: $theme-dark;
-    color: white;
+.bg-alt {
+    background-color: $soft-background;
 }
 
 .text-faded {
     color: rgba(white, .7);
+}
+
+.text-soft {
+    color: $soft-text;
 }
 
 section {
@@ -275,7 +270,8 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: $theme-primary;
+    // color: $theme-primary;
+    color: $soft-text; 
 }
 
 .no-gutter > [class*='col-'] {

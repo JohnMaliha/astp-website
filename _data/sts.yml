@@ -21,6 +21,7 @@
   description: >
     Élikos est une société technique dont le but est de promouvoir les multirotors autonomes dans le milieu universitaire.
   logo: "elikos.png"
+  image: "elikos.jpg"
   links:
       website: "https://elikos.polymtl.ca"
       facebook: ElikosPoly
@@ -34,6 +35,7 @@
   description: >
     La société étudiante Oronos est une équipe multidisciplinaire dont l’objectif principal est de concevoir, fabriquer et opérer des fusées haute puissance.
   logo: 
+  image: "oronos.jpg"
   links:
       website: "https://oronospolytechnique.com/"
       facebook: oronospolytechnique

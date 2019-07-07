@@ -1,3 +1,21 @@
+# Data for sociétés techniques
+#
+# Entry format:
+# - name: 
+#   name-full: 
+#   description: >
+#     
+#   logo: 
+#   links:
+#       website: ""
+#       facebook: 
+#       instagram: 
+#       twitter: 
+#       flickr: 
+#       linkedin: 
+#       github: 
+#       gitlab: 
+
 - name: Élikos
   name-full: Société technique Élikos
   description: >

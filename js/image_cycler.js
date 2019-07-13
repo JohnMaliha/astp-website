@@ -26,9 +26,13 @@ function setImg(image, container) {
 }
 const cycleImages = (images, container, step) => {
     images.forEach((image, index) => {
-        setTimeout(() => {
+        if (index == 0) {
             setImg(image, container);
-        }, step * (index + 1));
+        } else {
+            setTimeout(() => {
+                setImg(image, container);
+            }, step * index);
+        }
     });
     setTimeout(() => cycleImages(images, container, step), step * images.length);
 }

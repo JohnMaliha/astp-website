@@ -1,12 +1,12 @@
 ---
 ---
 
-const step = 5000;
-const background_dir = "/img/sts/backgrounds/";
+const step = {{ site.background-images-step }};
+const background_dir = "{{ site.background-images-dir }}";
 const imgs = [
-    {% for st in site.data.sts %}
+{% for st in site.data.sts %}
     background_dir + "{{ st.image }}",
-    {% endfor %}
+{% endfor %}
 ];
 
 // From: https://stackoverflow.com/a/6274381

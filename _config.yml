@@ -6,6 +6,10 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
+# Background images
+background-images-dir: "/img/sts/backgrounds/"
+background-images-step: 5000
+
 # Author
 author-name: Christophe Bédard
 author-email: christophe.bedard@polymtl.ca # TODO include somewhere along with author-name

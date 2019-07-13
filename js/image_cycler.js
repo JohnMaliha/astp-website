@@ -1,27 +1,26 @@
 ---
 ---
 
-// From: https://stackoverflow.com/a/37243062
-
-const background_dir = "/img/sts/backgrounds/"
-
+const step = 5000;
+const background_dir = "/img/sts/backgrounds/";
 const imgs = [
-{% for st in site.data.sts %}
+    {% for st in site.data.sts %}
     background_dir + "{{ st.image }}",
-{% endfor %}
-]
+    {% endfor %}
+];
 
-console.log(imgs)
-
-const node = document.getElementById("background-image-cycle");
-
+// From: https://stackoverflow.com/a/37243062
+function setImg(image, container) {
+    container.style.backgroundImage = `url(${image})`;
+}
 const cycleImages = (images, container, step) => {
-    images.forEach((image, index) => (
-    setTimeout(() => {
-        container.style.backgroundImage = `url(${image})`  
-    }, step * (index + 1))
-))
-setTimeout(() => cycleImages(images, container, step), step * images.length)
+    images.forEach((image, index) => {
+        setTimeout(() => {
+            setImg(image, container);
+        }, step * (index + 1));
+    });
+    setTimeout(() => cycleImages(images, container, step), step * images.length);
 }
 
-cycleImages(imgs, node, 5000)
+const node = document.getElementById("background-image-cycle");
+cycleImages(imgs, node, step);

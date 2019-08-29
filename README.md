@@ -15,6 +15,12 @@ $ bundle install
 and then do:
 
 ```
+$ bundle exec jekyll build
+```
+
+or this to serve and open a browser:
+
+```
 $ bundle exec jekyll serve
 ```
 

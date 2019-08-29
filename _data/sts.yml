@@ -5,6 +5,7 @@
 #   description: >
 #     
 #   logo: 
+#   local: 
 #   image: ""
 #   links:
 #       website: ""
@@ -21,6 +22,7 @@
   description: >
     Élikos est une société technique dont le but est de promouvoir les multirotors autonomes dans le milieu universitaire.
   logo: "elikos.png"
+  local: A-323
   image: "elikos.jpg"
   links:
       website: "https://elikos.polymtl.ca"

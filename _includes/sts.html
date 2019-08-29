@@ -18,7 +18,9 @@
                         {{ st.description }}
                     </div>
                 </div>
-                <div class="col-md-1"></div>
+                <div class="col-md-1 text-soft">
+                    {% if st.local %}{{ st.local }}{% endif %}
+                </div>
                 <div class="col-md-4">
                     <div>
                         {% if st.links.website %}<a class="sts-social-btn" href="{{ st.links.website}}" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe fa-3x"></i></a>{% endif %}

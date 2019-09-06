@@ -18,6 +18,39 @@
 #       github: 
 #       gitlab: 
 
+- name: Archimède
+  description: >
+    Archimède a pour but de concevoir et réaliser un sous-marin à propulsion humaine afin de représenter Polytechnique Montréal à des compétitions internationales de vitesse et d’agilité.
+  logo: 
+  local: B-319
+  image: "archimede.jpg"
+  links:
+      website: "http://archimede.polymtl.ca/"
+      facebook: polyarchimede
+      instagram: archimede.poly
+      youtube: channel/UCs4eg2T5HpijBbLEJ1-BD7g
+- name: Avion Cargo
+  description: >
+    L'Avion-Cargo, c’est un projet de conception et de fabrication de radiomodélisme (pour participer aux compétitions internationales SAE) mené par un groupe de passionnés qui se conclut par le vol de deux avions: le micro, petit aéronef démontable et le regular, bête volante de 12" d'envergure.
+  logo: 
+  local: C-572
+  image: "avioncargo.jpg"
+  links:
+      website: "http://nova.polymtl.ca/~cargo/"
+      facebook: AvionCargoPolytechnique
+      instagram: avioncargopolymtl
+      linkedin: avion-cargo-polytechnique
+- name: Baja SAE
+  description: >
+    Véhicule tout-terrain de performance: conception, fabrication, essais et compétitions au menu!
+  logo: 
+  local: A-495
+  image: "baja.jpg"
+  links:
+      website: "http://baja.polymtl.ca/"
+      facebook: Bajapoly
+      instagram: baja_polymtl
+      gitlab_link: https://git.step.polymtl.ca
 - name: Élikos
   description: >
     Élikos est une société technique dont le but est de promouvoir les multirotors autonomes dans le milieu universitaire.
@@ -42,6 +75,27 @@
       facebook: VoitureSolaireEsteban
       twitter: EstebanSolarCar
       youtube: EstebanSolarCar
+- name: Formule Polytechnique Montréal
+  description: >
+    FPM construit chaque année une voiture de Formule SAE de plus en plus performante! Dès 2021, celle-ci sera 100% électrique.
+  logo: 
+  local: M-5503
+  image: "formule.jpg"
+  links:
+      website: "http://fsae.polymtl.ca/"
+      facebook: Formule.Polytechnique.Montreal
+      instagram: fsae_polymtl
+      youtube: channel/UCRxPO3warKhAVjhqrvxW-Hg
+- name: Machine EPM
+  description: >
+    La machine EPM a comme objectif de concevoir, construire et programmer un robot dans une période restreinte de 4 mois qui pourra accomplir les tâches d’un défi différent à chaque année.
+  logo: 
+  local: L-3812.1C
+  image: "machine.png"
+  links:
+      website: "http://jdg.aep.polymtl.ca/machine"
+      facebook: MachineEPM
+      youtube: channel/UCtHEGJsUxDylLo_LUoZP-tQ
 - name: Oronos
   description: >
     La société étudiante Oronos est une équipe multidisciplinaire dont l’objectif principal est de concevoir, fabriquer et opérer des fusées haute puissance.
@@ -53,3 +107,24 @@
       instagram: oronospolytechnique
       twitter: OronosPoly
       flickr: oronospolytechnique
+- name: Polycortex
+  description: >
+    Polycortrex jumèle les neurosciences à l'ingénierie pour résoudre des problèmes concrets de neuroingénierie.
+  logo: 
+  local: 
+  image: "polycortex.jpg"
+  links:
+      website: "http://polycortex.polymtl.ca/"
+      facebook: PolyCortex
+      instagram: polycortex
+      linkedin: polycortex/about/
+      github: PolyCortex
+- name: Pont d'Acier PM
+  description: >
+    Le pont d'acier PM est une société technique qui a pour but de concevoir un prototype optimisé de pont en acier pouvant répondre à des contraintes de conception prédéfinies dans les règlements de la compétition canadienne et mexicaine.
+  logo: 
+  local: A-411
+  image: "pont.jpg"
+  links:
+      facebook: PontdacierPM
+      instagram: pontdacierepm

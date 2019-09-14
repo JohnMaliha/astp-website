@@ -51,6 +51,17 @@
       facebook: Bajapoly
       instagram: baja_polymtl
       gitlab_link: https://git.step.polymtl.ca
+- name: Canoë de Béton Polymtl
+  description: >
+    Conception et fabrication d'un canoë en béton ultra léger afin de participer à des compétitions ayant des volets académique et sportif.
+  logo: 
+  local: A-411
+  image: "canoe.jpg"
+  links:
+      website: "http://www.canoe.polymtl.ca/"
+      facebook: CanoeBetonPolymtl
+      instagram: canoe_polymtl
+      youtube: channel/UCqCO1v28rckZgD4uq8_E5Sg
 - name: Élikos
   description: >
     Élikos est une société technique dont le but est de promouvoir les multirotors autonomes dans le milieu universitaire.

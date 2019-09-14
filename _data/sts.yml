@@ -80,6 +80,7 @@
   description: >
     Par la construction d'un véhicule solaire et la participation à des courses de calibre international, le projet Esteban vise à faire connaître au public les divers aspects de l'énergie solaire.
   logo: 
+  local: A-497
   image: "esteban.jpg"
   links:
       website: "http://esteban.polymtl.ca/"
@@ -111,6 +112,7 @@
   description: >
     La société étudiante Oronos est une équipe multidisciplinaire dont l’objectif principal est de concevoir, fabriquer et opérer des fusées haute puissance.
   logo: 
+  local: C-572
   image: "oronos.jpg"
   links:
       website: "https://oronospolytechnique.com/"

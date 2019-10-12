@@ -39,7 +39,7 @@
       website: "http://nova.polymtl.ca/~cargo/"
       facebook: AvionCargoPolytechnique
       instagram: avioncargopolymtl
-      linkedin: avion-cargo-polytechnique
+      linkedin: company/avion-cargo-polytechnique
 - name: Baja SAE
   description: >
     Véhicule tout-terrain de performance: conception, fabrication, essais et compétitions au menu!
@@ -73,7 +73,7 @@
       facebook: ElikosPoly
       instagram: elikos.polymtl
       twitter: ElikosPoly
-      linkedin: elikos-polymtl
+      linkedin: company/elikos-polymtl
       github: elikos
       gitlab: elikos
 - name: Esteban
@@ -142,7 +142,7 @@
       website: "http://polycortex.polymtl.ca/"
       facebook: PolyCortex
       instagram: polycortex
-      linkedin: polycortex/about/
+      linkedin: company/polycortex/about/
       github: PolyCortex
 - name: Pont d'Acier PM
   description: >

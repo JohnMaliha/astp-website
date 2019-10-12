@@ -5,7 +5,9 @@ const step = {{ site.background-images-step }};
 const background_dir = "{{ site.background-images-dir }}";
 const imgs = [
 {% for st in site.data.sts %}
+    {% if st.image.size != 0 %}
     background_dir + "{{ st.image }}",
+    {% endif %}
 {% endfor %}
 ];
 

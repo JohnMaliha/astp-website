@@ -108,6 +108,18 @@
       website: "http://jdg.aep.polymtl.ca/machine"
       facebook: MachineEPM
       youtube: channel/UCtHEGJsUxDylLo_LUoZP-tQ
+- name: METIS
+  description: >
+    METIS est une société technique multidisciplinaire axée sur les enjeux de l’ingénierie biomédicale. La société tire son origine d’une initiative des étudiants de 2010 en génie biomédical qui souhaitaient faire une différence dans la collectivité grâce à leurs connaissances acquises.
+  logo: 
+  local: 
+  image: "metis.jpg"
+  links:
+      website: "http://metis.polymtl.ca/"
+      facebook: SocieteMetis
+      instagram: metis.polymtl
+      youtube: channel/UCRtP4fr0JboRk5axTg5zs6w
+      linkedin: groups/8596296/
 - name: Oronos
   description: >
     La société étudiante Oronos est une équipe multidisciplinaire dont l’objectif principal est de concevoir, fabriquer et opérer des fusées haute puissance.
@@ -141,3 +153,23 @@
   links:
       facebook: PontdacierPM
       instagram: pontdacierepm
+- name: PolyOrbite
+  description: >
+    PolyOrbite est une société technique au sein de Polytechnique Montréal, dans laquelle 70 étudiants passionnés en premier et deuxième cycle visent un objectif commun : construire et lancer le premier CubeSat étudiant au Québec.
+  logo: 
+  local: M-3008
+  image: "polyorbite.jpg"
+  links:
+      website: "https://polyorbite.ca/"
+      facebook: PolyOrbite
+      instagram: polyorbite
+      twitter: PolyOrbite
+      linkedin: company/polyorbite
+- name: PolySTAR
+  description: >
+    PolySTAR est une société technique émergente familiarisant les étudiants de Polytechnique au domaine de la robotique. Grâce à ses trois volets (mentorat, ateliers et RoboMaster), elle offre une approche autant pédagogique que compétitive.
+  logo: 
+  local: 
+  image: ""
+  links:
+      facebook: PolySTARmtl

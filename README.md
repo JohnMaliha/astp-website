@@ -43,5 +43,6 @@ $ export FTP_PASSWORD=
 Then do:
 
 ```
+$ ./scripts/build.sh
 $ ./scripts/deploy.sh
 ```

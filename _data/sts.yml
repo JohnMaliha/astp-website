@@ -181,4 +181,5 @@
   local: 
   image: ""
   links:
+      website: "https://polystar.polymtl.ca/"
       facebook: PolySTARmtl

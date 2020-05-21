@@ -36,7 +36,7 @@
   local: C-572
   image: "avioncargo.jpg"
   links:
-      website: "http://nova.polymtl.ca/~cargo/"
+      website: "https://nova.polymtl.ca/~cargo/"
       facebook: AvionCargoPolytechnique
       instagram: avioncargopolymtl
       linkedin: company/avion-cargo-polytechnique
@@ -58,7 +58,7 @@
   local: A-411
   image: "canoe.jpg"
   links:
-      website: "http://www.canoe.polymtl.ca/"
+      website: "https://www.canoe.polymtl.ca/"
       facebook: CanoeBetonPolymtl
       instagram: canoe_polymtl
       youtube: channel/UCqCO1v28rckZgD4uq8_E5Sg
@@ -83,7 +83,7 @@
   local: A-497
   image: "esteban.jpg"
   links:
-      website: "http://esteban.polymtl.ca/"
+      website: "https://esteban.polymtl.ca/"
       facebook: VoitureSolaireEsteban
       twitter: EstebanSolarCar
       youtube: EstebanSolarCar
@@ -113,7 +113,7 @@
   local: L-3812.1C
   image: "machine.png"
   links:
-      website: "http://jdg.aep.polymtl.ca/machine"
+      website: "https://jdg.aep.polymtl.ca/machine"
       facebook: MachineEPM
       youtube: channel/UCtHEGJsUxDylLo_LUoZP-tQ
 - name: METIS
@@ -123,7 +123,7 @@
   local: 
   image: "metis.jpg"
   links:
-      website: "http://metis.polymtl.ca/"
+      website: "https://metispolymtl.com/"
       facebook: SocieteMetis
       instagram: metis.polymtl
       youtube: channel/UCRtP4fr0JboRk5axTg5zs6w

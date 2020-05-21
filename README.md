@@ -1,5 +1,7 @@
 # ASTP
 
+[![Build Status](https://travis-ci.org/christophebedard/astp-website.svg?branch=master)](https://travis-ci.org/christophebedard/astp-website)
+
 Website for the Association des sociétés techniques de Polytechnique.
 
 ## Build locally

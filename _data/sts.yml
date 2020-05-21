@@ -87,6 +87,15 @@
       facebook: VoitureSolaireEsteban
       twitter: EstebanSolarCar
       youtube: EstebanSolarCar
+- name: Exocet
+  description: >
+    Exocet est un groupe étudiant qui unit ses efforts pour participer à la compétition internationale HYDROCONTEST. Le défi lancé est de concevoir un bateau de 2 x 2.5 x 2.5 mètres qui va plus loin et plus vite que ceux des autres équipes avec, à sa disposition, le même moteur et la même batterie pour chaque équipe.
+  logo: 
+  local: 
+  image: ""
+  links:
+      website: ""
+      facebook: Exocet-Polytechnique-110382223831810
 - name: Formule Polytechnique Montréal
   description: >
     FPM construit chaque année une voiture de Formule SAE de plus en plus performante! Dès 2021, celle-ci sera 100% électrique.
@@ -162,6 +171,18 @@
   links:
       facebook: PontdacierPM
       instagram: pontdacierpm
+- name: PolyHx
+  description: >
+    PolyHx est un rassemblement de divers comités informatiques de Polytechnique, créé dans le but de faciliter l’implication technique dans le domaine. Le comité est voué au développement de systèmes informatiques et logiciels et à la promotion de différentes pratiques par le biais de compétitions.
+  logo: 
+  local: 
+  image: ""
+  links:
+      website: "https://polyhx.io/"
+      facebook: PolyHx
+      instagram: PolyHx
+      twitter: PolyHx
+      github: PolyHx
 - name: PolyOrbite
   description: >
     PolyOrbite est une société technique au sein de Polytechnique Montréal, dans laquelle 70 étudiants passionnés en premier et deuxième cycle visent un objectif commun : construire et lancer le premier CubeSat étudiant au Québec.

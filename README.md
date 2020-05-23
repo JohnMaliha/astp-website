@@ -37,7 +37,6 @@ $ sudo apt-get install lftp
 Set the following environment variables:
 
 ```bash
-$ export FTP_URL=
 $ export FTP_USER=
 $ export FTP_PASSWORD=
 ```

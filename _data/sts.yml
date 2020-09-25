@@ -170,6 +170,16 @@
   links:
       facebook: PontdacierPM
       instagram: pontdacierpm
+- name: Poly Games
+  description: >
+    Poly Games a comme but premier de promouvoir la création de jeux vidéo. Poly Games rassemble ainsi une communauté avide de jeux vidéo à qui elle consacre une panoplie d'activités telles que des conférences, des formations, des game jams et plus encore !
+  logo: 
+  local: L-3721 et L-3723
+  image: "polygames.jpg"
+  links:
+      website: "http://www.polygames.polymtl.ca/"
+      facebook: polymtlgames
+      youtube: channel/UCLiAtPjmv5AxT59jqzoB6Zw
 - name: PolyHx
   description: >
     PolyHx est un rassemblement de divers comités informatiques de Polytechnique, créé dans le but de faciliter l’implication technique dans le domaine. Le comité est voué au développement de systèmes informatiques et logiciels et à la promotion de différentes pratiques par le biais de compétitions.

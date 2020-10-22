@@ -36,9 +36,10 @@
   local: C-572
   image: "avioncargo.jpg"
   links:
-      website: "https://nova.polymtl.ca/~cargo/"
+      website: "https://avioncargo.polymtl.ca/"
       facebook: AvionCargoPolytechnique
       instagram: avioncargopolymtl
+      youtube: channel/UCuMNYOMKZq8DYLp2nsn_FOA
       linkedin: company/avion-cargo-polytechnique
 - name: Baja SAE
   description: >

@@ -1,0 +1,25 @@
+name: Automatic deployment
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    name: build and deploy to production
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install dependencies
+      run: |
+        sudo apt-get update && sudo apt-get install -q -y ruby bundler
+        bundle install
+    - name: Build static content
+      run: |
+        ./scripts/build.sh
+    - name: Build Docker image and deploy
+      run: |
+        ./scripts/deploy.sh --ci
+      env:
+        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}

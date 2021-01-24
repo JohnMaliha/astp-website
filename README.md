@@ -28,22 +28,21 @@ $ bundle exec jekyll serve
 
 ## Deploy
 
-Install `lftp`:
+Docker is required.
 
-```bash
-$ sudo apt-get install lftp
-```
-
-Set the following environment variables:
-
-```bash
-$ export FTP_USER=
-$ export FTP_PASSWORD=
-```
-
-Then do:
+Build the website and then build the Docker image and push to registry:
 
 ```bash
 $ ./scripts/build.sh
 $ ./scripts/deploy.sh
 ```
+
+## Test
+
+To deploy locally and test:
+
+```bash
+$ ./scripts/test_deploy.sh
+```
+
+It will launch an instance of an nginx image serving the static files and will open the local website in Chrome.

@@ -1,29 +1,15 @@
 #!/bin/sh
-# Deploy to FTP server
+# Deploy to Docker registry
 set -e
 
-# Set env variables beforehand
-#   FTP_USER
-#   FTP_PASSWORD
-if [ -z "${FTP_USER}" ] || [ -z "${FTP_PASSWORD}" ]; then
-    echo "Please set FTP_USER, and FTP_PASSWORD"
-    exit 1
-fi
+IMAGE_NAME="astp/website:latest"
 
-FTP_SYNC_ROOT="_site/"
-if [ ! -d "$FTP_SYNC_ROOT" ]; then
-    echo "Website not built"
-    exit 1
-fi
+# Build image and tag with private registry
+docker build -t $IMAGE_NAME .
+docker tag $IMAGE_NAME registry.step.polymtl.ca/$IMAGE_NAME
 
-FTP_URL="astp.polymtl.ca"
-FTP_REMOTE_ROOT="nova_html/"
+# Login
+docker login https://registry.step.polymtl.ca/
 
-URL="ftp://$FTP_USER:$FTP_PASSWORD@$FTP_URL"
-lftp -c "set ftp:list-options -a;
-open '$URL';
-lcd $FTP_SYNC_ROOT;
-cd $FTP_REMOTE_ROOT;
-mirror --reverse \
-       --delete \
-       --verbose"
+# Push
+docker push registry.step.polymtl.ca/$IMAGE_NAME

@@ -1,0 +1,22 @@
+name: Proofing
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-proof:
+    name: build and proof
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install dependencies
+      run: |
+        sudo apt-get update && sudo apt-get install -q -y ruby bundler
+        bundle install
+    - name: Build static content
+      run: |
+        ./scripts/build.sh
+    - name: Proof
+      run: |
+        ./scripts/proof.sh

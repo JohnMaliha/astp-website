@@ -1,6 +1,7 @@
 # ASTP
 
-[![Build Status](https://travis-ci.org/christophebedard/astp-website.svg?branch=master)](https://travis-ci.org/christophebedard/astp-website)
+[![Proofing status](https://github.com/christophebedard/astp-website/workflows/Proofing/badge.svg)](https://github.com/christophebedard/astp-website/actions?query=workflow%3AProofing)
+[![Automatic deployment status](https://github.com/christophebedard/astp-website/workflows/Automatic%20deployment/badge.svg)](https://github.com/christophebedard/astp-website/actions?query=workflow%3A%22Automatic+deployment%22)
 
 Website for the Association des sociétés techniques de Polytechnique.
 

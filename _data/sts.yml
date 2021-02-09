@@ -41,17 +41,6 @@
       instagram: avioncargopolymtl
       youtube: channel/UCuMNYOMKZq8DYLp2nsn_FOA
       linkedin: company/avion-cargo-polytechnique
-- name: Baja SAE
-  description: >
-    Véhicule tout-terrain de performance: conception, fabrication, essais et compétitions au menu!
-  logo: 
-  local: A-495
-  image: "baja.jpg"
-  links:
-      website: "http://baja.polymtl.ca/"
-      facebook: Bajapoly
-      instagram: baja_polymtl
-      gitlab_link: https://git.step.polymtl.ca
 - name: Canoë de Béton Polymtl
   description: >
     Conception et fabrication d'un canoë en béton ultra léger afin de participer à des compétitions ayant des volets académique et sportif.
@@ -63,20 +52,6 @@
       facebook: CanoeBetonPolymtl
       instagram: canoe_polymtl
       youtube: channel/UCqCO1v28rckZgD4uq8_E5Sg
-- name: Élikos
-  description: >
-    Élikos est une société technique dont le but est de promouvoir les multirotors autonomes dans le milieu universitaire.
-  logo: "elikos.png"
-  local: A-323
-  image: "elikos.jpg"
-  links:
-      website: "https://elikos.polymtl.ca"
-      facebook: ElikosPoly
-      instagram: elikos.polymtl
-      twitter: ElikosPoly
-      linkedin: company/elikos-polymtl
-      github: elikos
-      gitlab: elikos
 - name: Esteban
   description: >
     Par la construction d'un véhicule solaire et la participation à des courses de calibre international, le projet Esteban vise à faire connaître au public les divers aspects de l'énergie solaire.

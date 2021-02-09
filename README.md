@@ -27,6 +27,13 @@ or this to serve and open a browser:
 $ bundle exec jekyll serve
 ```
 
+Or simply:
+
+```bash
+$ ./scripts/build.sh
+$ ./scripts/serve.sh
+```
+
 ## Deploy
 
 Docker is required.

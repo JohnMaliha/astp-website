@@ -45,6 +45,8 @@ $ ./scripts/build.sh
 $ ./scripts/deploy.sh
 ```
 
+Note that deployment is automated using a GitHub action triggered when pushing on `master`, see [`deploy.yml`](.github/workflows/deploy.yml).
+
 ## Test
 
 To deploy locally and test:

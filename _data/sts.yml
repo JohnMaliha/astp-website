@@ -67,7 +67,7 @@
   description: >
     Exocet est un groupe étudiant qui unit ses efforts pour participer à la compétition internationale Monaco Solar and Energy Boat Challenge. Le défi lancé est de concevoir un bateau de type catamaran de 5 mètres qui va plus loin et plus vite que ceux des autres équipes en n'utilisant que des matériaux écologiques et une énergie verte.
   logo: 
-  local: 
+  local: A-373.2
   image: "exocet.jpg"
   links:
       facebook: ExocetPoly
@@ -96,7 +96,7 @@
   description: >
     METIS est une société technique multidisciplinaire axée sur les enjeux de l’ingénierie biomédicale. La société tire son origine d’une initiative des étudiants de 2010 en génie biomédical qui souhaitaient faire une différence dans la collectivité grâce à leurs connaissances acquises.
   logo: 
-  local: 
+  local: A-493
   image: "metis.jpg"
   links:
       website: "https://metispolymtl.com/"
@@ -129,7 +129,7 @@
   description: >
     Polycortex jumèle les neurosciences à l'ingénierie pour résoudre des problèmes concrets de neuroingénierie.
   logo: 
-  local: 
+  local: M-5503
   image: "polycortex.jpg"
   links:
       website: "http://polycortex.polymtl.ca/"

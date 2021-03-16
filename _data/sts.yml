@@ -70,7 +70,10 @@
   local: A-373.2
   image: "exocet.jpg"
   links:
+      website: "https://exocet.polymtl.ca/"
       facebook: ExocetPoly
+      instagram: exocet_polymtl
+      youtube: channel/UCon5BoJg4drpinrsgrrUx3A
 - name: Formule Polytechnique Montréal
   description: >
     FPM construit chaque année une voiture de Formule SAE de plus en plus performante! Dès 2021, celle-ci sera 100% électrique.

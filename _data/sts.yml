@@ -126,7 +126,7 @@
   local: 
   image: ""
   links:
-      website: "https://nova.polymtl.ca/~polybrou/"
+      website: "https://polybroue.step.polymtl.ca/"
       facebook: Polybroue-351493818787
 - name: Polycortex
   description: >

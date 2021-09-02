@@ -85,15 +85,15 @@
       facebook: Formule.Polytechnique.Montreal
       instagram: fsae_polymtl
       youtube: channel/UCRxPO3warKhAVjhqrvxW-Hg
-- name: Machine EPM
+- name: Machine PM
   description: >
-    La machine EPM a comme objectif de concevoir, construire et programmer un robot dans une période restreinte de 4 mois qui pourra accomplir les tâches d’un défi différent à chaque année.
+    La machine PM a comme objectif de concevoir, construire et programmer un robot dans une période restreinte de 4 mois qui pourra accomplir les tâches d’un défi différent à chaque année.
   logo: 
   local: L-3812.1C
   image: "machine.png"
   links:
       website: "https://jdg.aep.polymtl.ca/machine"
-      facebook: MachineEPM
+      facebook: MachinePM
       youtube: channel/UCtHEGJsUxDylLo_LUoZP-tQ
 - name: METIS
   description: >

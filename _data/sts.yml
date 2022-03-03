@@ -128,18 +128,6 @@
   links:
       website: "https://polybroue.step.polymtl.ca/"
       facebook: Polybroue-351493818787
-- name: Polycortex
-  description: >
-    Polycortex jumèle les neurosciences à l'ingénierie pour résoudre des problèmes concrets de neuroingénierie.
-  logo: 
-  local: M-5503
-  image: "polycortex.jpg"
-  links:
-      website: "http://polycortex.polymtl.ca/"
-      facebook: PolyCortex
-      instagram: polycortex
-      linkedin: company/polycortex/about/
-      github: PolyCortex
 - name: Pont d'Acier PM
   description: >
     Le pont d'acier PM est une société technique qui a pour but de concevoir un prototype optimisé de pont en acier pouvant répondre à des contraintes de conception prédéfinies dans les règlements de la compétition canadienne et mexicaine.
